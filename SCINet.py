@@ -122,7 +122,7 @@ class MinMax:
         return standardize
 
 
-FILENAME = "/content/SCINet/MSFT.csv"
+FILENAME = "/content/SCINet_lab_B/MSFT.csv"
 
 data = pd.read_csv(FILENAME)
 open_data = data["Open"].to_numpy()
